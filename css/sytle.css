@@ -133,3 +133,36 @@ margin-top: 20px;
 .card img{
  padding: 20px;
 }
+
+/*Sign-in */
+.form-signin {
+  text-align: center;
+  margin: auto;
+  max-width: 330px;
+  padding: 15px;
+}
+.form-signin .entrar{
+  background: #ff5f2d;
+  color: white;
+}
+.form-signin form{
+  margin-top: 20px;
+}
+
+/*Sign-up*/
+.form-signup{
+  margin: auto;
+  max-width: 800px;
+  padding: 15px;
+}
+.form-signup button{
+  background: #ff5f2d;
+  color: white;
+}
+.form-signup h1{
+text-align: center;
+}
+
+.form-signup form{
+  margin-top: 20px;
+}
