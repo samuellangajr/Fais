@@ -26,7 +26,7 @@
   width: 35px; 
   height: 35px;
 }
-.row{
+.item{
   margin-bottom: 30px;
 }
 p{
@@ -165,4 +165,46 @@ text-align: center;
 
 .form-signup form{
   margin-top: 20px;
+}
+
+/*Dashboard comprador*/
+.nav-left .dashTitle{
+  color: #ff5f2d;
+}
+.nav-left .nav-link.active {
+  background-color: #ff5f2d;
+}
+.nav-left .nav-link{
+  color: #ff5f2d;
+}
+
+.btn-procurar{
+  background: #ff5f2d;
+  color: white;
+}
+
+/*Ticket*/
+.card {
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  background-color: white;
+  width: 700px;
+  border-radius: 15px;
+}
+.card-img-top {
+  border-radius: 15px;
+}
+.heading {
+  color: hsl(218, 44%, 22%);
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.card-text {
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  font-size: 12px;
 }
