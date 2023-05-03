@@ -208,3 +208,14 @@ text-align: center;
   text-align: center;
   font-size: 12px;
 }
+
+/*home*/
+.table-events {
+  max-width: 800px;
+  margin: auto;
+}
+
+/*dashboard*/
+.dash{
+margin-top: 30px;
+}

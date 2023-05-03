@@ -55,29 +55,75 @@
           </div>
         </div>
       </nav>
-    <!--Sign in form-->
-    <div class="form-signin">
-        <form>
-          <img class="mb-4" src="/img/logo2.png" alt="" width="57" height="57">
-          <h1 class="h3 mb-3 fw-normal">Login</h1>
-      
-          <div class="form-floating">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email</label>
+            <!--table-->
+            <div class="table-events bd-example-snippet bd-code-snippet my-4"><h3 style="text-align: center; color: #ff5f2d;">Eventos</h3><div class="bd-example">
+                <div class="search row">
+                    <div class="col-md-9 mb-4">
+                      <input class="form-control" id="myInput" type="text" placeholder="Digite algo para pesquisar nomes, categorias, datas ou tipos....">
+                    </div>
+                    <div class="procurar col-md-3">
+                      <button class="btn-procurar w-100 btn btn-lg">Procurar</button>
+                    </div>
+                  </div>
+                  
+                <br>
+                <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Data-hora</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Normal</td>
+                    <td><a href="dashboard.html">Carnaval</a></td>
+                    <td>08/06/2023 - 15h</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Vip</td>
+                    <td><a href="ticket.html">Sundown</a></td>
+                    <td>10/01/2023 - 18h</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Normal</td>
+                    <td><a href="ticket.html">Teatro Gilberto</a></td>
+                    <td>17/02/2023 - 12h</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Normal</td>
+                    <td><a href="ticket.html">Festival do indico</a></td>
+                    <td>07/09/2023 - 14h</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Vip</td>
+                    <td><a href="ticket.html">Business Conferência</a></td>
+                    <td>12/12/2023 - 11h</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Normal</td>
+                    <td><a href="ticket.html">Doce picante</a></td>
+                    <td>20/11/2023 - 20h</td>
+                </tr>
+                </tbody>
+                </table>
+                <div>
+                    <button class="btn-procurar w-100 btn btn-lg">+ Criar evento</button>
+                </div>
+            </div>
           </div>
-          <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-          </div>
-      
-          <div class="checkbox mb-3">
-            <label>
-              <p>Não tem conta? <a href="sign-up.html">Criar</a></p>
-            </label>
-          </div>
-          <a class="entrar w-100 btn btn-lg" href="home.html">Entrar</a>
-        </form>
-    </div>
+        </div>
+      </div>
+       
+        
     <!--Footer-->
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
